@@ -7,13 +7,15 @@ var canvasLeft, canvasTop;
 
 canvasLeft = canvasTop = 0;
 
+
+
 // Prevent scrolling on keydown event
-document.addEventListener('keydown', function(event) {
+window.addEventListener('keydown', function(event) {
   event.preventDefault();
 });
 
 // Prevent scrolling on touchmove event
-document.addEventListener('touchmove', function(event) {
+window.addEventListener('touchmove', function(event) {
   event.preventDefault();
 });
 
