@@ -134,14 +134,4 @@ message.addEventListener("click", function(){
     message.postMessage( "home-menu", "sence.switchSence" );
 });
 
-// Prevent scrolling on keydown event
-document.addEventListener('keydown', function(event) {
-  event.preventDefault();
-});
-
-// Prevent scrolling on touchmove event
-document.addEventListener('touchmove', function(event) {
-  event.preventDefault();
-});
-
 
